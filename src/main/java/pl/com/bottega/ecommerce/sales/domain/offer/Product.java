@@ -29,7 +29,6 @@ public class Product {
         return SnapshotDate;
     }
 
-
     public Product(String id, String type, String name, Date snapshotDate) {
         Id = id;
         Type = type;

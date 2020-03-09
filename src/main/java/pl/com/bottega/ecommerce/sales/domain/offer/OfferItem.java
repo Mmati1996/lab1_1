@@ -154,29 +154,4 @@ public class OfferItem {
     }
 
 }
-/*
-totalCost jako operacja
 
-osobna klasa produkt
-produkt 1--<+>n OfferItem
-
-OfferItem:
-
-
-produkt:
-    id
-    type
-    name
-    snapshotDate
-
-
- money:
-    denomination
-    currency
-
-    money --discount--<+>OfferItem
-    money --totalCost--<+> OfferItem
-    produkt --price--<+> money
-
-
- */

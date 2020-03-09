@@ -63,7 +63,6 @@ public class Offer {
         if (availableItems.size() != seenOffer.availableItems.size()) {
             return false;
         }
-
         for (OfferItem item : availableItems) {
             OfferItem sameItem = seenOffer.findItem(item.getProduct().getId());
             if (sameItem == null) {
