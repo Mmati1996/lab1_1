@@ -27,6 +27,10 @@ public class OfferItem {
         return product;
     }
 
+    public String getProductId() {
+        return product.getId();
+    }
+
     private Money totalCost;
 
     private Product product;
@@ -57,14 +61,9 @@ public class OfferItem {
         this.totalCost = (new Money ((new BigDecimal(quantity)),null));
     }
 
-
-
     public BigDecimal getProductPrice() {
         return productPrice;
     }
-
-
-
 
 
     public Money getTotalCost() {
@@ -154,4 +153,3 @@ public class OfferItem {
     }
 
 }
-
